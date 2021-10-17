@@ -66,3 +66,39 @@ malloc, free, exit, write, read
 | less then 8500 | 3 |
 | less then 10000 | 2 |
 | less then 11500 | 1 |
+
+## Bonus
+
+* The Bonus exercise was to write a Program called 'checker' that can read the Operations from stdin and perform them on a stack of numbers.
+* checker will return 'KO' when the given Operations will sort the numbers in ascending order. Otherwise it returns 'KO'.
+* In case of an error (f.ex. Operations doesn't exist) it returns 'Error'.
+
+## How to use
+
+Clone the repository:
+```bash
+https://github.com/42akurz/42_push_swap.git
+```
+Go to the repository and run make
+```bash
+make
+```
+run make bonus to compile checker files
+```bash
+make bonus
+```
+Call the executable together with a set of numbers seperated by a space
+```bash
+./push_swap 10 7 8 2 3 6 1 4 9 5
+```
+To run the checker on push swap, use the pipe operator
+```bash
+ARG="10 7 8 2 3 6 1 4 9 5"; ./push_swap $ARG | ./CHECKER $ARG
+```
+Use clean to delete all object files, fclean to remove all object files and libft.a and re to recompile the library
+```bash
+make clean / make fclean / make re
+```
+
+
+
