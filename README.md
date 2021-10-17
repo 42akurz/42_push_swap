@@ -1,5 +1,8 @@
 # 42_push_swap - 42 School Project
 
+[![akurz's 42Project Score](https://badge42.herokuapp.com/api/project/akurz/push_swap)](https://github.com/JaeSeoKim/badge42)
+
+
 ## About
 
 * This project will make you sort data on a stack, with a limited set of instructions, using the lowest possible number of actions.
