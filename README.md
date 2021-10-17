@@ -95,7 +95,7 @@ To run the checker on push swap, use the pipe operator
 ```bash
 ARG="10 7 8 2 3 6 1 4 9 5"; ./push_swap $ARG | ./CHECKER $ARG
 ```
-Use clean to delete all object files, fclean to remove all object files and libft.a and re to recompile the library
+Use clean to delete all object files, fclean to remove all object files and executable and re to recompile the program
 ```bash
 make clean / make fclean / make re
 ```
