@@ -1,4 +1,4 @@
-# 42_push_swap - 42 School Project
+# push_swap - 42 School Project
 
 [![akurz's 42Project Score](https://badge42.herokuapp.com/api/project/akurz/push_swap)](https://github.com/JaeSeoKim/badge42)
 
