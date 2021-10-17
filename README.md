@@ -33,3 +33,36 @@ malloc, free, exit, write, read
 | rra | reverse rotate a - shift down all elements of stack a by 1. The last element becomes the first one |
 | rrb | reverse rotate b - shift down all elements of stack b by 1. The last element becomes the first one |
 | rrr | rra and rrb at the same time |
+
+## Approach for Algorithm
+
+1. I go through stack A looking for a sequenece of numbers that is already in ascending order.
+2. I keep this sequenece of numbers in stack A and push all other elements to stack B.
+3. Before performing any further Operations, i calculate for every single element in Stack B how many operations it would need to get to it's correct position in stack A.
+4. I choose the element on stack B, that needs the fewest amount of Operations. Then I perform the Operations that are required to get it to the correct position in stack A.
+5. I repeat step 3 and step 4 until stack A is sorted and stack B is empty.
+6. Now i only need to align stack A, which means rotating it until the smallest element is at the top.
+
+## Grading
+
+* Sorting 100 numbers:
+* I achieve an average of 600 Operations
+  
+| Operations | Points |
+| :---: | :---: |
+| less then 700 | 5 |
+| less then 900 | 4 |
+| less then 1100 | 3 |
+| less then 1300 | 2 |
+| less then 1500 | 1 |
+
+* Sorting 500 numbers: 
+* I achieve an average of 5400 Operations 
+
+| Operations | Points |
+| :---: | :---: |
+| less then 5500 | 5 |
+| less then 7000 | 4 |
+| less then 8500 | 3 |
+| less then 10000 | 2 |
+| less then 11500 | 1 |
